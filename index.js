@@ -46,7 +46,6 @@ function newGame() {
 }
 
 /* Highlighting the leading team */
-/* Maybe with true or false when comparing the scores */
 
 
 /* Fouls in total for each team */
