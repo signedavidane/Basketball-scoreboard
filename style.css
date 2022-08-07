@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #E4DCF2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+
+.score-container {
+    background-color: #423853;
+    width: 230px;
+    height: 190px;
+    text-align: center;
+    display: flex; /* This helped with positioning the #points in the middle of parent div */
+    border-radius: 10px;
+    
+}
+
+#home-score, #guest-score {
+    color: #E4DCF2;
+    margin: auto; /* Positioned the text in the middle */
+}
+
+p {
+    font-size: 55px;
+}
+
+
+.score-btns {
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: #E4DCF2;
+    background-color: #9882BE;
+}
+
+#new-game {
+    text-align: center;
+}
+
+#new-game-btn {
+    border-radius: 10px;
+    color: #E4DCF2;
+    background-color: #9882BE
+}
+
