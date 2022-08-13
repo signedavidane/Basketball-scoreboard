@@ -1,4 +1,4 @@
-let homeScore = document.getElementById("home-score") /* This line is needed only if IDs or classes contain - or _ */
+let homeScore = document.getElementById("home-score") 
 let guestScore = document.getElementById("guest-score")
 
 
